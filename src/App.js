@@ -5,7 +5,6 @@ import Header from "./components/Header";
 import * as s from "./styles/styles";
 import Tables from "./components/Tables";
 import TableC from "./components/TableC";
-import "./App.css";
 import Boxes from "./components/Boxes";
 const axios = require("axios").default;
 
