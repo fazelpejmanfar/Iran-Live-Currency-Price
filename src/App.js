@@ -339,7 +339,7 @@ function App() {
   };
 
   const getprice = () => {
-    fetch(`http://bonbast-api.herokuapp.com/archive/?date=${NewDate}`)
+    fetch(`https://bonbast-api.herokuapp.com/archive/?date=${NewDate}`)
       .then((response) => response.json())
       .then((res) => {
         let prices = res;
